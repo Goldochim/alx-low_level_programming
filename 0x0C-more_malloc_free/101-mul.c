@@ -1,6 +1,6 @@
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
 #include <ctype.h>
 
 /**
@@ -31,7 +31,6 @@ void _is_zero(char *argv[])
 	{
 		printf("0\n");
 		exit(0);
-
 	}
 }
 
@@ -50,7 +49,6 @@ char *_initialize_array(char *ar, int lar)
 		ar[i] = '0';
 	ar[lar] = '\0';
 	return (ar);
-
 }
 
 /**
@@ -73,7 +71,6 @@ int _checknum(char *argv[], int n)
 		}
 
 	return (ln);
-
 }
 
 /**
