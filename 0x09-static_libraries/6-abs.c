@@ -1,15 +1,13 @@
 #include "main.h"
+
 /**
-* _abs - prints the absolute value of a number
-*@i: number targeted
-*Return: returns 0
-*/
-int _abs(int i)
+ * _abs - computes the absolute value for an interger
+ * @n: interger to be tested
+ * Return: 0 or 1
+ */
+
+int _abs(int n)
+
 {
-if (i > 0)
-return (i);
-else if (i < 0)
-return (-i);
-else
-return (0);
+return (n < 0 ? -1 * n : n);
 }
